@@ -1,2 +1,2 @@
 # entesdeneme
-Deneme
+first commit
