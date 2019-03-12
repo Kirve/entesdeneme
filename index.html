@@ -9,42 +9,24 @@
         
         <form id="search-form" >
                 <div class="search">
-                  <input type="text" id="loong" class="round" placeholder="Longitude"/>
+                  <input type="text" id="loong" class="round" placeholder="Longitude [North]"/>
                   
                 </div>
                 <div class="search1">
-                        <input type="text" id="latit" class="round" placeholder="Latitude"/>
+                        <input type="text" id="latit" class="round" placeholder="Latitude [West]"/>
                 </div>
 </form>
         <div class="search2">
-                <input type="submit" value="Send" class="roundButton"
-                      onclick="userSelect()" />
+                <input type="submit" value="Look up!" id="wantedLoca" class="roundButton"
+                       />
     
         </div>
         <div class="currentButton">
-                <input type="submit" value="Current Location" class="roundButton"
-                      onclick="Current()"  />
+                <input type="submit" value="Current Location" id="currentLoca" class="roundButton"
+                      />
     
         </div>
-        <script>
-            function userSelect(){
-                let longiboy= document.getElementById("loong").value;
-                let latitboy = document.getElementById("latit").value;
-                
-                  
-                }
-                
-                console.log(latitboy);
-                console.log(longiboy);
-
-            
-            function Current(){
-                console.log("ALFA");
-            }
-
-           
-        </script>
-
+        
     <div class="location">
         <h1 class="location-timezone"></h1>
         <canvas class="icon" width="128" height="128"></canvas>
