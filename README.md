@@ -1,2 +1,2 @@
 # entesdeneme
-commitov
+commitovski
