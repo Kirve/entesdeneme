@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    font-family: sans-serif;
+    color: white;
+}
+
+.round,
+.roundButton {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.roundButton{
+    width: 50%;
+    background-color: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 3%;
+    margin-left: 25%;
+    margin-top: 5%;
+
+}
+
+.search {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+.search1 {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+.search2 {
+    position: relative;
+    width: 190px;
+    height: 30px;
+}
+.currentButton{
+    position: relative;
+    width: 300px;
+    height: 30px;}
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.temperature{
+
+    flex-direction: column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 40px;
+
+}
