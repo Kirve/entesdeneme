@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 window.addEventListener('load', ()=> {
 
     let temperatureDescription = document.querySelector('.temperature-description');
