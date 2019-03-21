@@ -1,0 +1,104 @@
+2019-03-18T08:48:48.236880600 0.016653s notice: In recursion: removing file 'C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data\\tmp'
+2019-03-18T08:48:48.236880601 0.017350s warn: Trying to delete non-existent file 'C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data\\tmp'
+2019-03-18T08:48:48.252495300 0.019216s notice: Initializing directory C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data
+2019-03-18T08:48:48.252495301 0.019923s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data' did not already exist or is empty.)
+2019-03-18T08:48:48.252495302 0.031279s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-18T08:48:48.252495303 0.031501s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-03-18T08:48:48.252495304 0.031624s notice: Loading data from directory C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data
+2019-03-18T08:48:48.673787000 0.453178s info: Automatically using cache size of 2306 MB
+2019-03-18T08:48:48.689409600 0.456405s notice: Listening for intracluster connections on port 29015
+2019-03-18T08:48:48.720660200 0.487649s notice: Listening for client driver connections on port 28015
+2019-03-18T08:48:48.720660201 0.487989s notice: Listening for administrative HTTP connections on port 8080
+2019-03-18T08:48:48.720660202 0.487994s notice: Listening on cluster address: 127.0.0.1
+2019-03-18T08:48:48.720660203 0.487997s notice: Listening on driver address: 127.0.0.1
+2019-03-18T08:48:48.720660204 0.487999s notice: Listening on http address: 127.0.0.1
+2019-03-18T08:48:48.720660205 0.488002s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-18T08:48:48.720660206 0.488005s notice: Server ready, "ARGE9_uaa" cfae2361-cc04-4d3c-8121-abd3dba76953
+2019-03-18T08:49:18.757639200 30.522997s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-03-18T09:14:03.402014100 1515.133274s info: Table 1ea10e24-e4e1-476e-bd97-6fd1a2c4f986: Starting a new Raft election for term 1.
+2019-03-18T09:14:03.403014800 1515.133885s info: Table 1ea10e24-e4e1-476e-bd97-6fd1a2c4f986: Added replica on this server.
+2019-03-18T09:14:03.445707800 1515.176863s info: Table 1ea10e24-e4e1-476e-bd97-6fd1a2c4f986: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-18T09:19:45.484997100 1857.206384s notice: Removing file C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data\\1ea10e24-e4e1-476e-bd97-6fd1a2c4f986
+2019-03-18T09:19:45.484997101 1857.206399s info: Table 1ea10e24-e4e1-476e-bd97-6fd1a2c4f986: Deleted the table.
+2019-03-18T09:20:46.794880100 1918.514590s info: Table 89d4c962-7ca4-44c4-84fc-b3a176a14e4e: Starting a new Raft election for term 1.
+2019-03-18T09:20:46.794880101 1918.515118s info: Table 89d4c962-7ca4-44c4-84fc-b3a176a14e4e: Added replica on this server.
+2019-03-18T09:20:46.838382100 1918.558689s info: Table 89d4c962-7ca4-44c4-84fc-b3a176a14e4e: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-18T09:24:03.078995700 2114.793858s notice: Removing file C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data\\89d4c962-7ca4-44c4-84fc-b3a176a14e4e
+2019-03-18T09:24:03.078995701 2114.793873s info: Table 89d4c962-7ca4-44c4-84fc-b3a176a14e4e: Deleted the table.
+2019-03-18T09:25:40.645313800 2212.357854s notice: Server got Control-C; shutting down...
+2019-03-18T09:25:40.646300600 2212.358349s notice: Shutting down client connections...
+2019-03-18T09:25:40.646300601 2212.358507s notice: All client connections closed.
+2019-03-18T09:25:40.646300602 2212.358510s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-03-18T09:25:40.646300603 2212.359122s notice: Storage engine shut down.
+2019-03-18T09:35:11.091786500 0.022321s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-18T09:35:11.104809000 0.034883s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-03-18T09:35:11.104809001 0.035176s notice: Loading data from directory C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data
+2019-03-18T09:35:11.216309300 0.146519s info: Automatically using cache size of 2586 MB
+2019-03-18T09:35:11.236075800 0.166697s notice: Listening for intracluster connections on port 29015
+2019-03-18T09:35:11.238061500 0.168237s notice: Listening for client driver connections on port 28015
+2019-03-18T09:35:11.238061501 0.168396s notice: Listening for administrative HTTP connections on port 8080
+2019-03-18T09:35:11.238061502 0.168397s notice: Listening on cluster address: 127.0.0.1
+2019-03-18T09:35:11.238061503 0.168400s notice: Listening on driver address: 127.0.0.1
+2019-03-18T09:35:11.238061504 0.168401s notice: Listening on http address: 127.0.0.1
+2019-03-18T09:35:11.238061505 0.168402s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-18T09:35:11.238061506 0.168403s notice: Server ready, "ARGE9_uaa" cfae2361-cc04-4d3c-8121-abd3dba76953
+2019-03-18T09:35:41.284490200 30.187467s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-03-18T09:36:28.240502400 77.099685s info: Table 7172158f-db18-4bdf-a0fb-8cd8238fd31c: Starting a new Raft election for term 1.
+2019-03-18T09:36:28.241509200 77.100725s info: Table 7172158f-db18-4bdf-a0fb-8cd8238fd31c: Added replica on this server.
+2019-03-18T09:36:28.283664400 77.143445s info: Table 7172158f-db18-4bdf-a0fb-8cd8238fd31c: This server is Raft leader for term 1. Latest log index is 0.
+2019-03-18T10:24:25.217162900 2953.726657s notice: Server got Control-C; shutting down...
+2019-03-18T10:24:25.217162901 2953.727109s notice: Shutting down client connections...
+2019-03-18T10:24:25.217162902 2953.727230s notice: All client connections closed.
+2019-03-18T10:24:25.217162903 2953.727233s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-03-18T10:24:25.223157000 2953.733243s notice: Storage engine shut down.
+2019-03-19T10:12:49.543221200 0.037973s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-19T10:12:49.545224200 0.039911s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-03-19T10:12:49.545224201 0.039991s notice: Loading data from directory C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data
+2019-03-19T10:12:49.744755400 0.238916s info: Automatically using cache size of 1417 MB
+2019-03-19T10:12:49.765357000 0.259920s notice: Listening for intracluster connections on port 29015
+2019-03-19T10:12:49.905468400 0.399435s notice: Listening for client driver connections on port 28015
+2019-03-19T10:12:49.905468401 0.399572s notice: Listening for administrative HTTP connections on port 8080
+2019-03-19T10:12:49.905468402 0.399575s notice: Listening on cluster address: 127.0.0.1
+2019-03-19T10:12:49.905468403 0.399576s notice: Listening on driver address: 127.0.0.1
+2019-03-19T10:12:49.905468404 0.399578s notice: Listening on http address: 127.0.0.1
+2019-03-19T10:12:49.905468405 0.399579s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-19T10:12:49.905468406 0.399580s notice: Server ready, "ARGE9_uaa" cfae2361-cc04-4d3c-8121-abd3dba76953
+2019-03-19T10:12:51.435448900 1.929558s info: Table 7172158f-db18-4bdf-a0fb-8cd8238fd31c: Starting a new Raft election for term 2.
+2019-03-19T10:12:51.731434800 2.225620s info: Table 7172158f-db18-4bdf-a0fb-8cd8238fd31c: This server is Raft leader for term 2. Latest log index is 3.
+2019-03-19T10:32:59.871446700 1210.331769s notice: Server got Control-C; shutting down...
+2019-03-19T10:32:59.871446701 1210.332237s notice: Shutting down client connections...
+2019-03-19T10:32:59.872445800 1210.332387s notice: All client connections closed.
+2019-03-19T10:32:59.872445801 1210.332391s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2019-03-19T10:32:59.930600200 1210.390755s notice: Storage engine shut down.
+2019-03-19T13:55:24.474722900 0.010766s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-19T13:55:24.474722901 0.011004s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-03-19T13:55:24.474722902 0.011110s notice: Loading data from directory C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data
+2019-03-19T13:55:24.551052000 0.087229s info: Automatically using cache size of 1387 MB
+2019-03-19T13:55:24.553049800 0.088885s notice: Listening for intracluster connections on port 29015
+2019-03-19T13:55:24.561051100 0.097518s notice: Listening for client driver connections on port 28015
+2019-03-19T13:55:24.562050000 0.097727s notice: Listening for administrative HTTP connections on port 8080
+2019-03-19T13:55:24.562050001 0.097729s notice: Listening on cluster address: 127.0.0.1
+2019-03-19T13:55:24.562050002 0.097730s notice: Listening on driver address: 127.0.0.1
+2019-03-19T13:55:24.562050003 0.097731s notice: Listening on http address: 127.0.0.1
+2019-03-19T13:55:24.562050004 0.097739s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-19T13:55:24.562050005 0.097740s notice: Server ready, "ARGE9_uaa" cfae2361-cc04-4d3c-8121-abd3dba76953
+2019-03-19T13:55:26.544278500 2.079891s info: Table 7172158f-db18-4bdf-a0fb-8cd8238fd31c: Starting a new Raft election for term 3.
+2019-03-19T13:55:26.590992400 2.126721s info: Table 7172158f-db18-4bdf-a0fb-8cd8238fd31c: This server is Raft leader for term 3. Latest log index is 6.
+2019-03-19T13:55:54.617717300 30.152548s warn: Problem when checking for new versions of RethinkDB: HTTP request to update.rethinkdb.com failed.
+2019-03-19T13:56:30.166940800 65.701424s notice: Removing file C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data\\7172158f-db18-4bdf-a0fb-8cd8238fd31c
+2019-03-19T13:56:30.166940801 65.701441s info: Table 7172158f-db18-4bdf-a0fb-8cd8238fd31c: Deleted the table.
+2019-03-21T12:11:04.053454900 0.010249s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-21T12:11:04.061456100 0.018201s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-03-21T12:11:04.061456101 0.018368s notice: Loading data from directory C:\\Users\\argestajyer\\Downloads\\rethinkdb\\rethinkdb\\rethinkdb_data
+2019-03-21T12:11:04.239658900 0.196842s info: Automatically using cache size of 1204 MB
+2019-03-21T12:11:04.240659000 0.198210s notice: Listening for intracluster connections on port 29015
+2019-03-21T12:11:04.242660700 0.199299s notice: Listening for client driver connections on port 28015
+2019-03-21T12:11:04.242660701 0.199457s notice: Listening for administrative HTTP connections on port 8080
+2019-03-21T12:11:04.242660702 0.199459s notice: Listening on cluster address: 127.0.0.1
+2019-03-21T12:11:04.242660703 0.199460s notice: Listening on driver address: 127.0.0.1
+2019-03-21T12:11:04.242660704 0.199461s notice: Listening on http address: 127.0.0.1
+2019-03-21T12:11:04.242660705 0.199463s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-03-21T12:11:04.242660706 0.199464s notice: Server ready, "ARGE9_uaa" cfae2361-cc04-4d3c-8121-abd3dba76953
+2019-03-21T13:18:48.738614100 4064.595486s info: Table a1a95d7d-a636-4036-a614-0bca49f573a9: Starting a new Raft election for term 1.
+2019-03-21T13:18:48.740607900 4064.597492s info: Table a1a95d7d-a636-4036-a614-0bca49f573a9: Added replica on this server.
+2019-03-21T13:18:48.787696400 4064.644865s info: Table a1a95d7d-a636-4036-a614-0bca49f573a9: This server is Raft leader for term 1. Latest log index is 0.

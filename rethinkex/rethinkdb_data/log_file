@@ -1,0 +1,10 @@
+2019-03-21T13:59:57.989754400 0.009102s notice: In recursion: removing file 'C:\\Users\\argestajyer\\entesdeneme\\rethinkex\\rethinkdb_data\\tmp'
+2019-03-21T13:59:57.990756900 0.010170s warn: Trying to delete non-existent file 'C:\\Users\\argestajyer\\entesdeneme\\rethinkex\\rethinkdb_data\\tmp'
+2019-03-21T13:59:57.992755600 0.012072s notice: Initializing directory C:\\Users\\argestajyer\\entesdeneme\\rethinkex\\rethinkdb_data
+2019-03-21T13:59:57.993756900 0.012951s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'C:\\Users\\argestajyer\\entesdeneme\\rethinkex\\rethinkdb_data' did not already exist or is empty.)
+2019-03-21T13:59:57.993756901 0.012990s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-03-21T13:59:57.994756400 0.013948s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-03-21T13:59:57.994756401 0.014202s notice: Loading data from directory C:\\Users\\argestajyer\\entesdeneme\\rethinkex\\rethinkdb_data
+2019-03-21T13:59:58.571739000 0.590911s info: Automatically using cache size of 1227 MB
+2019-03-21T13:59:58.571739001 0.590934s warn: bind failed: Normal olarak her yuva adresi (ileti?im kural?/a? adresi/ba?lant? noktas?) i?in yaln?zca bir kullan?ma izin veriliyor.
+2019-03-21T13:59:58.572737300 0.592503s error: TCP socket creation failed for port 29015: Input/output error.

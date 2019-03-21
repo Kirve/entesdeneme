@@ -113,7 +113,7 @@ document.getElementById("currentLoca").addEventListener('click', ()=> {
 document.getElementById("wantedLoca").addEventListener('click', ()=> {
     
     if(document.getElementById("loong").value=="" || document.getElementById("latit").value==""){
-        alert("Please enter correct longitude and latitude.")
+        alert("Please enter correct longitude and latitude.");
         
     }
     else{
@@ -128,7 +128,7 @@ let degree = document.querySelector('.temperature span');
         longi = document.getElementById("latit").value;
        
         
-        const proxy = "https://cors-anywhere.herokuapp.com/"
+        const proxy = "https://cors-anywhere.herokuapp.com/";
         const api = proxy + "https://api.darksky.net/forecast/e75ed165e1cd8192e50424e97b9a6948/" + lati + "," + longi;
 
         fetch(api)
