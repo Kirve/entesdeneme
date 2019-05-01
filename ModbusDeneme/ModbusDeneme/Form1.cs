@@ -55,15 +55,15 @@ namespace ModbusDeneme
 
             TCP_Client.Close();
            
-            /*
+            
             UdpClient udpci = new UdpClient();
             udpci.Connect("192.168.4.187", 502);
             SerialPort sp = new SerialPort("COM1", 115200);
             ModbusMaster MBus = ModbusSerialMaster.CreateRtu(udpci);            
          
             ushort[] datass = MBus.ReadHoldingRegisters(1, 0, 10);
-            */
-            /*
+            
+            
             SerialPort sp = new SerialPort("COM1", 115000);
             sp.Open();
             ModbusSerialMaster MBus = ModbusSerialMaster.CreateRtu(sp);
@@ -77,7 +77,7 @@ namespace ModbusDeneme
             b3[2] = b2[0];
             b3[3] = b2[1];
             float watt = BitConverter.ToSingle(b3, 0);
-            */
+            
          }
 
     }
